@@ -1,11 +1,11 @@
 //base by Tech-God
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
-//GitHub: @techgod143
-//WhatsApp: +917466008456
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
+//YouTube: @itsmosscow
+//Instagram: itsmosscow
+//Telegram: t.me/itmosscow
+//GitHub: @imosscow00
+//WhatsApp: +201033757279
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@itsmosscow
 
 require('./settings')
 const pino = require('pino')
@@ -32,7 +32,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "911234567890"
+let phoneNumber = "201033757279"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
